@@ -47,7 +47,7 @@ input::placeholder {
   margin: 120px auto;
   max-width: 600px;
 }
-#poem-topic {
+#user-instructions {
   padding: 14px;
   border: none;
   width: 80%;
@@ -89,4 +89,7 @@ input::placeholder {
 }
 #english-poem {
   margin-top: 20px;
+}
+.poem strong {
+  color: #f6727f;
 }
