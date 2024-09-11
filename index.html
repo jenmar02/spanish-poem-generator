@@ -16,27 +16,27 @@
   </head>
   <body>
     <div class="container">
-      <header class="header-box">
+      <header>
         <h1>AI Spanish Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the Spanish poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem-container" id="spanish-poem">
-          <div class="language" id="spanish-lang">Traducción al español</div>
-          <div id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the Spanish poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <small class="hint">i.e Flower, Paris, or Anniversaries</small>
         </div>
-        <div id="english-poem">
+        <div class="poem hidden" id="poem"></div>
+        <div class="english-poem-container hidden" id="english-poem">
           <div class="language">English Translation</div>
           <div id="eng-poem"></div>
         </div>
