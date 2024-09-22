@@ -83,8 +83,7 @@ input::placeholder {
   width: 135px;
   font-size: 18px;
 }
-#poem,
-#english-poem {
+#poem {
   font-size: 16px;
   line-height: 2;
   background-color: #ffe3d6;
@@ -97,9 +96,6 @@ input::placeholder {
 }
 .hidden {
   display: none;
-}
-#english-poem {
-  margin-top: 20px;
 }
 #poem strong {
   color: #f6727f;
